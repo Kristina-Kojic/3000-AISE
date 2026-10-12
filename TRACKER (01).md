@@ -15,7 +15,7 @@
 |---|---|
 | Repo set up + dataset added | ✅ Done |
 | Notebook Sections 1–10 (EDA → baseline models) | ✅ Done — commit `af3ed49` |
-| README + requirements.txt | ⬜ Kristina uploading |
+| README + requirements.txt | ✅ Done |
 | Team understands + practises the notebook | ⬜ This week |
 | 🎤 **Demo 1** | **Thu Oct 22 (Lab 5)** — confirm date with TA |
 
