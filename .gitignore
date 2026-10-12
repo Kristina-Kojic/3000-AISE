@@ -1,0 +1,15 @@
+# Python / Jupyter junk
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# virtual environment (each person makes their own)
+.venv/
+venv/
+
+# secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
