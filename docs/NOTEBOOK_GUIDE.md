@@ -2,9 +2,9 @@
 
 This guide walks through our notebook `DS3000_Project_GroupNN.ipynb` **in order**, one step at a time.
 
-- 📅 Who does each step, and by when → **[TRACKER.md](docs/TRACKER.md)**
-- ✅ Short checklist version → **[PLAN.md](docs/PLAN.md)**
-- 📖 Don't know a word? → **[GLOSSARY.md](docs/GLOSSARY.md)**
+- 📅 Who does each step, and by when → **[TRACKER.md](TRACKER.md)**
+- ✅ Short checklist version → **[PLAN.md](PLAN.md)**
+- 📖 Don't know a word? → **[GLOSSARY.md](GLOSSARY.md)**
 
 ---
 
