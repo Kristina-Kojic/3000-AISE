@@ -1,5 +1,8 @@
 # Notebook Guide — Step by Step, With the WHY
 
+> [!NOTE]
+> This was our early plan. The notebook is the final version.
+
 This guide walks through our notebook `DS3000_Project_GroupNN.ipynb` **in order**, one step at a time.
 
 - 📅 Who does each step, and by when → **[TRACKER.md](TRACKER.md)**
