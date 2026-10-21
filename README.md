@@ -42,7 +42,7 @@ PLAN.md, TRACKER.md, ...       team planning documents
 | Stage 3 demo | Lab 11 | |
 
 ## Planning documents
-- **[PLAN.md](PLAN.md)** — checklist and deadlines
-- **[NOTEBOOK_GUIDE.md](NOTEBOOK_GUIDE.md)** — step-by-step guide to each notebook section
-- **[TRACKER.md](TRACKER.md)** — who does what, and when
-- **[GLOSSARY.md](GLOSSARY.md)** — key terms explained
+- **[docs/PLAN.md](docs/PLAN.md)** — checklist and deadlines
+- **[docs/NOTEBOOK_GUIDE.md](docs/NOTEBOOK_GUIDE.md)** — step-by-step guide to each notebook section
+- **[docs/TRACKER.md](docs/TRACKER.md)** — who does what, and when
+- **[docs/GLOSSARY.md](docs/GLOSSARY.md)** — key terms explained
