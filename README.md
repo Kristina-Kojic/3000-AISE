@@ -13,6 +13,9 @@
 ```
 DS3000_Project_Group01.ipynb   main project notebook
 requirements.txt               Python libraries needed to run the notebook
+models/
+  final_model.joblib           Stage 2 selected model (tuned XGBoost) + fitted scaler
+  final_model_config.json      its settings, features, seed and validation scores
 data/
   cardio.arff                  dataset (about 3 MB)
   README.md                    data source and description
@@ -32,14 +35,14 @@ docs/
 3. Open Jupyter **from the repository folder** (so the relative path `data/cardio.arff` works).
 4. Open the notebook and choose **Kernel → Restart & Run All**.
 
-**Run order:** run all cells from top to bottom. **Expected runtime:** about 30–60 seconds.
+**Run order:** run all cells from top to bottom. **Expected runtime:** about 1–2 minutes.
 **Random seed:** `SEED = 42` is used for every random operation, so results are reproducible.
 
 ## Project stages
 | Stage | Date | Commit |
 |---|---|---|
 | Stage 1 demo (EDA, split, baseline models) | Lab 5 | *(add commit hash before the demo)* |
-| Stage 2 demo | Lab 8 | |
+| Stage 2 demo (trees, MLP, tuning, final model) | Lab 8 | *(add commit hash before the demo)* |
 | Stage 3 demo | Lab 11 | |
 
 ## Planning documents
