@@ -14,8 +14,8 @@
 DS3000_Project_Group01.ipynb   main project notebook
 requirements.txt               Python libraries needed to run the notebook
 models/
-  final_model.joblib           Stage 2 selected model (tuned XGBoost) + fitted scaler
-  final_model_config.json      its settings, features, seed and validation scores
+  final_model.joblib           locked final model (tuned XGBoost) + fitted scaler + feature order
+  final_model_config.json      its settings, features, seed, locked decision threshold and validation scores
 data/
   cardio.arff                  dataset (about 3 MB)
   README.md                    data source and description
@@ -35,15 +35,17 @@ docs/
 3. Open Jupyter **from the repository folder** (so the relative path `data/cardio.arff` works).
 4. Open the notebook and choose **Kernel → Restart & Run All**.
 
-**Run order:** run all cells from top to bottom. **Expected runtime:** about 1–2 minutes.
+**Run order:** run all cells from top to bottom (Sections 1–32). The test set is used only in Section 27, after the
+final model and its decision threshold are locked in Section 26. **Expected runtime:** about 1–2 minutes.
+The last cell prints `Final smoke test passed: all checks OK`.
 **Random seed:** `SEED = 42` is used for every random operation, so results are reproducible.
 
 ## Project stages
 | Stage | Date | Commit |
 |---|---|---|
-| Stage 1 demo (EDA, split, baseline models) | Lab 5 | *(add commit hash before the demo)* |
-| Stage 2 demo (trees, MLP, tuning, final model) | Lab 8 | *(add commit hash before the demo)* |
-| Stage 3 demo | Lab 11 | |
+| Stage 1 demo (EDA, split, baseline models) | Lab 5 | `af3ed49` |
+| Stage 2 demo (trees, MLP, tuning, final model) | Lab 8 | `488ac9a` |
+| Stage 3 final demo (PCA/clustering, cross-validation, threshold, final test, failure analysis) | Lab 11 | *(add the final commit hash)* |
 
 ## Planning documents
 - **[docs/PLAN.md](docs/PLAN.md)** — checklist and deadlines

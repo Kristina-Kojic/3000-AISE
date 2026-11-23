@@ -23,12 +23,20 @@
   ],
   "preprocessing": "StandardScaler fitted on the training set only (saved in final_model.joblib)",
   "random_seed": 42,
-  "decision_threshold": 0.5,
+  "decision_threshold": 0.43,
   "split": "60/20/20 stratified train/validation/test, random_state=SEED",
   "validation_scores": {
     "Accuracy": 0.7375,
     "Precision": 0.7514,
     "Recall": 0.7015,
     "F1": 0.7256
-  }
+  },
+  "threshold_rule": "Highest validation F1 for thresholds 0.20-0.80 (Section 25); test set not used",
+  "validation_scores_at_threshold": {
+    "Precision": 0.7148,
+    "Recall": 0.7638,
+    "F1": 0.7385,
+    "Accuracy": 0.7324
+  },
+  "locked_before_test": true
 }
